@@ -42,11 +42,30 @@ transition: 3s;
     height: 100px;
     background: red;
 }
+
+.ex-4-square:hover {
+    transition: 3s;
+opacity: 0;
+}
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+}
+
+.ex-5-square:hover{
+    width: 110px;
+    height: 110px;
+    transition: 2s;
+}
+
+.ex-5-square:active{
+    width: 30px;
+    height: 30px;
+    transition: 2s;
+
+
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
